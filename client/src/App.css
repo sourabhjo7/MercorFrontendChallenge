@@ -1,0 +1,328 @@
+
+ .App-logo {
+  width: 44px;
+  height: 39px;
+  margin-right: auto;
+  margin-left: 4%;
+} 
+.App{
+  background-image: url("./assests/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center ;
+  background-color: black;
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.eye{
+  margin-right: 3%;
+  margin-left: auto;
+}
+
+.App-header {
+  display: flex;
+  padding-top:1%;
+}
+
+.menu{
+  display: flex;
+  justify-content: space-around;
+  width:40%;
+}
+.menu-item{
+ color: white;
+ list-style: none;
+ padding-right: 2%;
+ padding-left: 2%;
+}
+
+
+.cash-app{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 7%;
+  position: relative;
+  
+}
+.phone-cover{
+  position: absolute;
+  z-index: 3;
+  height: 60vh;
+  
+}
+.item1{
+  font-size: 300px;
+  font-weight: 900;
+  z-index: 1;
+  margin-bottom: 0px;
+}
+.item2{
+  font-size: 300px;
+  font-weight: 900;
+  z-index: 4;
+  margin-top: -100px;
+}
+.stairs{
+  position: absolute;
+  width: 250px;
+  top: 10vh;
+  right: 10vw;
+  left: auto;
+}
+.cube{
+  position: absolute;
+  width: 100px;
+  top: 7vh;
+  left:12vw;
+}
+.cubes{
+  position: absolute;
+  width: 250px;
+  bottom: 10vh;
+  left: 15vw;
+}
+.pillar{
+  position: absolute;
+  bottom: 1%;
+  right: 24vw;
+  height: 30%;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom:2%;
+  margin-top:auto;
+
+}
+.footer-content{
+  max-width: 30%;
+  height: 20%;
+}
+
+.button{
+  display: flex;
+  width: 170px;
+  height: 1vh;
+  padding: 25px;
+align-items: center;
+border-radius: 15px;
+border: 2px solid #FFF;
+background: #000;
+z-index: 2;
+align-self: center;
+}
+.txt{
+  text-transform: uppercase;
+  padding-left: 20%;
+}
+.arrow{
+  align-self: center;
+}
+.icons{
+  padding: 1%;
+  display: flex;
+  justify-content: space-evenly;
+  width: 10%;
+}
+.b1{
+  margin-right: 19px;
+}
+
+@media only screen and (max-width: 1400px) { 
+  .item1{
+    font-size: 250px;
+  }
+  .item2{
+    font-size: 250px;
+  }
+  .footer{
+    margin-bottom: 0;
+  }
+  .phone-cover{
+    height: 50vh;
+  }
+  .pillar{
+    height: 25%;
+  }
+  .footer-content{
+    height:15%;
+    width: 30%;
+  }
+  .stairs{
+    width: 200px;  
+    right: 8vw;
+  }
+}
+
+@media only screen and (max-width:1100px) {
+  .item1{
+    font-size: 200px;
+  }
+  .item2{
+    font-size: 200px;
+  }
+  .cash-app{
+    margin-top:20% ;
+  }
+  .footer{
+    margin-bottom: 0;
+    
+  }
+  .phone-cover{
+    height: 40vh;
+  }
+  .pillar{
+    height: 20%;
+    right:auto;
+    left:0;
+    bottom: 10vh;
+  }
+ .cubes{
+  width: 150px;
+  bottom: 25vh;
+  right: 10vw;
+  left:auto;
+}
+.footer-content{
+  max-width: 50%;
+  width: auto;
+  padding-top: 10px;
+  font-size: small;
+}
+.arrow{
+  display: none;
+}
+.footer{
+  flex-direction: column;
+  align-items: center;
+}
+/* .footer-content{
+  max-width: 100% ;
+} */
+ .stairs{
+    width: 100px;
+    right: 8vw;
+  }
+ 
+}
+
+@media only screen and (max-width: 1000px) { 
+  .menu{
+    display: none;
+  } 
+ 
+}
+
+@media only screen and (max-width:800px) {
+  .item1{
+    font-size: 150px;
+  }
+  .item2{
+    font-size: 150px;
+  }
+  .cash-app{
+    margin-top:40% ;
+  }
+  .footer{
+    margin-top: 30%;
+    margin-bottom: 0;
+    
+  }
+  .phone-cover{
+    height: 30vh;
+  }
+  .pillar{
+    height: 20%;
+    right:auto;
+    left:0;
+    bottom: 24vh;
+  }
+ .cubes{
+  width: 150px;
+  bottom: 25vh;
+  right: 10vw;
+  left:auto;
+}
+.footer-content{
+  max-width: 50%;
+  width: auto;
+  padding-top: 10px;
+  font-size: small;
+}
+.arrow{
+  display: none;
+}
+/* .footer-content{
+  max-width: 100% ;
+} */
+ .stairs{
+    width: 100px;
+    right: 10vw;
+  }
+ 
+}
+
+@media only screen and (max-width:600px) {
+  .item1{
+    font-size: 150px;
+  }
+  .item2{
+    font-size: 150px;
+  }
+  .cash-app{
+    margin-top:40% ;
+  }
+  .footer{
+    margin-top: 30%;
+    margin-bottom: 0;
+  }
+  .phone-cover{
+    height: 30vh;
+  }
+  .pillar{
+    height: 20%;
+    right:auto;
+    left:0;
+    bottom: 34vh;
+  }
+  .cube{
+    position: absolute;
+    width: 100px;
+    top: 7vh;
+    left:12vw;
+  }
+ .cubes{
+  width: 150px;
+  bottom: 35vh;
+  right: 10vw;
+  left:auto;
+}
+.footer-content{
+  max-width: 50%;
+  width: auto;
+  padding-top: 10px;
+  font-size: small;
+}
+.arrow{
+  display: none;
+}
+.buttons{
+  flex-direction: column;
+}
+.b2{
+  margin-right:19px;
+}
+/* .footer-content{
+  max-width: 100% ;
+} */
+ .stairs{
+    width: 100px;
+    right: 10vw;
+  }
+ 
+}
